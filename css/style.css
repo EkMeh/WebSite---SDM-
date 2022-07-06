@@ -1,0 +1,1607 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+body
+{
+    background: IndianRed;
+    width: 100%;
+    height: 100%;
+}
+
+.header
+{
+    display:flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.content-header
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.content-header .logo
+{
+    position: absolute;
+    top: 2rem; left:10%;
+}
+
+.content-header .logo .b1
+{
+    font-size: 3rem; 
+    color: white;
+    box-shadow: 8px 8px 5px white;
+}
+
+.content-header .logo .b2
+{
+    font-size: 2rem; 
+    color: #9FE2BF;
+    box-shadow: 6px 6px 3px #9FE2BF;
+}
+
+.content-header .logo .b3
+{
+    font-size: 1rem; 
+    color: navy;
+    box-shadow: 4px 4px 2px navy;
+}
+
+.content-header .menu
+{
+    position: absolute;
+    top: 3.5rem; left: 38%;
+    z-index: 1;
+}
+
+.content-header .menu ul li 
+{
+    list-style: none;
+    display: inline;
+    padding-left: .7rem;
+}
+
+.content-header .menu ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.content-header .menu ul li a:hover 
+{
+    color: #1C2833;
+}
+
+.content
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    top:10%;left: 15%;
+}
+
+
+.content .info .text1, .text2, .text3
+{
+    font-size: 3rem;
+    color: white;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.content .info .text2 span
+{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.content .info p
+{
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    font-weight:600; 
+    color: white;
+    padding-top: .2rem;
+}
+
+.content .info .btn1{
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    color:IndianRed;
+    font-size: 1rem;
+    background: white;
+    border: .1rem solid indianred;
+    border-radius: .3rem;
+    max-width: 20rem;
+    margin-top: 2.5rem;
+}
+
+.content .info .btn2{
+    padding: .9rem 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1rem;
+    background: indianred;
+    border: .1rem solid white;
+    border-radius: .3rem;
+    margin-top: 2.5rem;
+    max-width: 20rem;
+}
+
+.content .info .btn2:hover{
+    padding: .9rem 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1rem;
+    background: #1C2833;
+    border: .1rem solid #1C2833;
+    border-radius: .3rem;
+    max-width: 20rem;
+    transition: .8s;
+}
+
+.content .info .btn1:hover{
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1rem;
+    background: #1C2833;
+    border: .1rem solid #1C2833;
+    border-radius: .3rem;
+    max-width: 20rem;
+    transition: .8s;
+}
+
+.content .imag img{
+    object-fit: contain;
+    margin-left: 13rem;
+    border-radius: 5rem;
+}
+
+.services .services-content
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 45rem; 
+    background: white;
+    display: grid;
+    
+}
+
+.services-content h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+ 
+}
+
+.services-content h1 span
+{
+    border-bottom: .3rem solid red;
+}
+
+.services-content .servicesListContent
+{
+    position: relative;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 2rem;
+    padding-left: 10.5rem;
+    padding-right: 10.5rem;
+    padding-bottom: 5rem;
+}
+
+.services-content .servicesListContent .lovedesing
+{
+   max-width: 17rem;
+   background:#F7F9F9;
+   display: grid; 
+}
+
+
+.services-content .servicesListContent .lovedesing ion-icon
+{
+    background:#F7F9F9;
+    font-size: 3rem;
+    border: .1rem solid red;
+    padding: .3rem;
+    margin-left: 2rem; margin-top: 2rem;
+}
+
+.services-content .servicesListContent .lovedesing h2
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 2rem;
+    padding-top: .8rem;
+    letter-spacing: .1rem;
+}
+
+.services-content .servicesListContent .lovedesing p
+{
+    font-size: .8rem;
+    padding-left: 2rem;
+    padding-top: .4rem;
+    letter-spacing: .1rem;
+}
+
+.services-content .servicesListContent .lovedesing a
+{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2rem;
+}
+
+.services-content .servicesListContent .celanui
+{
+   max-width: 17rem;
+   background:#F7F9F9;
+   margin-left: 2rem;
+}
+
+.services-content .servicesListContent .celanui ion-icon
+{
+    background: #F7F9F9;
+    font-size: 3rem;
+    border: .1rem solid red;
+    padding: .3rem;
+    margin-left: 2rem; margin-top: 2rem;
+}
+
+.services-content .servicesListContent .celanui h2
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 2rem;
+    padding-top: .8rem;
+    letter-spacing: .1rem;
+}
+
+.services-content .servicesListContent .celanui p
+{
+    font-size: .8rem;
+    padding-left: 2rem;
+    padding-top: .4rem;
+    padding-bottom: .8rem;
+    letter-spacing: .1rem;
+}
+
+.services-content .servicesListContent .celanui h2 span
+{
+    text-transform: uppercase;
+}
+
+.services-content .servicesListContent .celanui a
+{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2rem;
+}
+
+.services-content .servicesListContent .responsive
+{
+   max-width: 17rem;
+   background:#F7F9F9;
+   margin-left: 2rem; 
+}
+
+.services-content .servicesListContent .responsive ion-icon
+{
+    background: #F7F9F9;
+    font-size: 3rem;
+    border: .1rem solid red;
+    padding: .3rem;
+    margin-left: 2rem; margin-top: 2rem;
+}
+
+.services-content .servicesListContent .responsive h2
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 2rem;
+    padding-top: .8rem;
+    letter-spacing: .1rem;
+}
+
+.services-content .servicesListContent .responsive p
+{
+    font-size: .8rem;
+    padding-left: 2rem;
+    padding-top: .4rem;
+    padding-bottom: .8rem;
+    letter-spacing: .1rem;
+}
+
+.services-content .servicesListContent .responsive a
+{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2rem;
+}
+
+
+.services-content .servicesListContent .simpleux
+{
+   max-width: 17rem;
+   background:#F7F9F9;
+   margin-left: 2rem;
+}
+
+.services-content .servicesListContent .simpleux ion-icon
+{
+    background: #F7F9F9;
+    font-size: 3rem;
+    border: .1rem solid red;
+    padding: .3rem;
+    margin-left: 2rem; margin-top: 2rem;
+}
+
+.services-content .servicesListContent .simpleux ion-icon
+{
+    background: #F7F9F9;
+    font-size: 3rem;
+    border: .1rem solid red;
+    padding: .3rem;
+    margin-left: 2rem; margin-top: 2rem;
+}
+
+.services-content .servicesListContent .simpleux h2
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 2rem;
+    padding-top: .8rem;
+    letter-spacing: .1rem;
+}
+
+.services-content .servicesListContent .simpleux h2 span
+{
+    text-transform: uppercase;
+}
+
+.services-content .servicesListContent .simpleux p
+{
+    font-size: .8rem;
+    padding-left: 2rem;
+    padding-top: .4rem;
+    padding-bottom: .8rem;
+    letter-spacing: .1rem;
+}
+
+.services-content .servicesListContent .simpleux a
+{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2rem;
+}
+
+
+.services-content .servicesListContent .lovedesing hr
+{
+    position: absolute;
+    top: 5.8rem; left: 10rem;
+    background: red;
+    width: 9.2rem;
+    height: .2rem;
+    visibility: hidden;
+}
+
+.services-content .servicesListContent .lovedesing:hover hr
+{
+    visibility: visible;
+    transition: .5s;
+    transform: translateX(6.3rem);
+}
+
+.services-content .servicesListContent .celanui hr
+{
+    position: absolute;
+    top: 5.8rem; left: 29rem;
+    background: red;
+    width: 9.2rem;
+    height: .2rem;
+    visibility: hidden;
+}
+
+.services-content .servicesListContent .celanui:hover hr
+{
+    visibility: visible;
+    transition: .5s;
+    transform: translateX(6.3rem);
+}
+
+.services-content .servicesListContent .responsive hr
+{
+    position: absolute;
+    top: 5.8rem; left: 48rem;
+    background: red;
+    width: 9.2rem;
+    height: .2rem;
+    visibility: hidden;
+}
+
+.services-content .servicesListContent .responsive:hover hr
+{
+    visibility: visible;
+    transition: .5s;
+    transform: translateX(6.3rem);
+}
+
+
+.services-content .servicesListContent .simpleux hr
+{
+    position: absolute;
+    top: 5.8rem; left: 66.9rem;
+    background: red;
+    width: 9.2rem;
+    height: .2rem;
+    visibility: hidden;
+}
+
+.services-content .servicesListContent .simpleux:hover hr
+{
+    visibility: visible;
+    transition: .5s;
+    transform: translateX(6.3rem);
+}
+
+.services-content .servicesListContent .lovedesing:hover ion-icon,
+.services-content .servicesListContent .celanui:hover ion-icon,
+.services-content .servicesListContent .responsive:hover ion-icon,
+.services-content .servicesListContent .simpleux:hover ion-icon
+{
+    background: red;
+    color: white;
+}
+
+.servicesBox
+{
+    display: flex;
+    background:#F7F9F9;
+}
+
+.servicesBox
+{
+    padding-bottom: 5rem;
+} 
+
+.servicesBox .servicesBoxInfo
+{
+    padding-top: 12rem;
+    padding-left: 6rem;
+    padding-bottom: 5rem;
+}
+
+.servicesBox .servicesBoxInfo h2
+{
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    text-transform: capitalize;
+    padding-bottom: .5rem;
+}
+
+.servicesBox .servicesBoxInfo h2 span
+{
+    color: red;
+    text-transform: uppercase;
+}
+
+.servicesBox .servicesBoxInfo p ion-icon
+{
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.servicesBox .servicesBoxInfo p{
+    font-size: 1.2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.servicesBox .servicesBoxImg img
+{
+    padding-left: 6rem;
+    padding-top: 5rem;
+    object-fit: cover;
+}
+
+.features
+{
+    position: relative;
+    top: 122.6rem; 
+    background: white;
+}
+
+.features h1
+{
+    position: absolute;
+    top:0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    padding-top: 2rem;
+}
+
+.features h1 span
+{
+    border-bottom: .3rem solid red;
+}
+
+.content-features
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.content-features .list .featuresBoxOne
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-features .list .featuresBoxOne .boxinfo h2
+{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-weight: 100;
+    letter-spacing: .2rem;
+    padding-top: 3rem;
+    padding-bottom: .5rem;
+}
+
+.content-features .list .featuresBoxOne .boxinfo h2 span
+{
+    text-transform: uppercase;
+}
+
+.content-features .list .featuresBoxOne .boxinfo p
+{
+    font-size: .9rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+.content-features .list .featuresBoxOne .boxicon i,
+.content-features .list .featuresBoxOne .boxicon ion-icon
+{
+    color: red;
+    font-size: 2rem;
+    margin-left: 5rem;
+    padding:1.3rem;
+    border-radius: 50%;
+    border-top-right-radius:.2rem;
+    border-bottom-left-radius:.2rem;
+    border: .1rem solid #FBFCFC;
+    transform: skewX(-7.5deg);
+    box-shadow:8px 10px 20px 5px #ecf0f1;
+}
+
+.content-features .list .featuresBoxOne .boxicon i:hover,
+.content-features .list .featuresBoxOne .boxicon ion-icon:hover
+{
+    color: #FBFCFC;
+    background-color: red;
+    transition: .5s;
+}
+
+
+.screenshots .content-screenshots
+{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 122.6rem; 
+    background:white;
+    padding-bottom: 5rem;
+}
+
+.content-screenshots h1
+{
+    position:absolute;
+    top: 0; left: 40%;
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+}
+
+.content-screenshots h1 span
+{
+    border-bottom: .3rem solid red;
+}
+
+.screenshots .content-screenshots .screenshotsBox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenshots .content-screenshots .screenshotsBox .screenshotsBoxInfo
+{
+    margin-top: 10rem;
+    max-width: 20rem;
+}
+
+.screenshots .content-screenshots .screenshotsBox .screenshotsBoxInfo h2
+{
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    padding-bottom: 1rem;
+}
+
+.screenshots .content-screenshots .screenshotsBox .screenshotsBoxInfo p
+{
+    font-weight: 200;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.screenshots .content-screenshots .screenshotsBox .screenshotsBoxImg
+{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.screenshots .content-screenshots .screenshotsBox .screenshotsBoxImg img
+{
+    padding-left: 1.5rem;
+}
+
+
+.screenshots .content-screenshots .screenshotsBox .btn2
+{
+    padding: .9rem 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1rem;
+    background: indianred;
+    border-radius: .3rem;
+    margin-top: 2.5rem;
+    max-width: 20rem;
+}
+
+.screenshots .content-screenshots .screenshotsBox .btn2:hover{
+    color:indianred;
+    font-size: 1rem;
+    background: #1C2833;
+}
+
+.screenshootsFooterBox
+{
+    background: #ecf0f1;
+    display: flex;
+    justify-content: space-around;
+    padding:5rem 0 3.8rem 0rem;
+    margin-top: 5rem;
+}
+
+.screenshootsFooterBox .screenshootsFooterBoxInfo:hover .rotate
+{
+    background-color: red;
+    transform: rotate(0deg);
+    transition: .3s;
+}
+
+.screenshootsFooterBox .screenshootsFooterBoxInfo:hover .rotate ion-icon
+{
+    color: white;
+    transform: rotate(0deg);
+    transition: .3s;
+}
+
+
+.screenshootsFooterBox .screenshootsFooterBoxInfo .rotate 
+{
+    background: white;
+    transform: rotate(45deg);
+    width: 6rem;
+}
+
+.screenshootsFooterBox .screenshootsFooterBoxInfo .rotate ion-icon
+{
+    font-size: 2rem;
+    color: red;
+    transform: rotate(-45deg);
+    padding: 2rem;
+}
+
+.screenshootsFooterBox .screenshootsFooterBoxInfo p
+{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+    padding-bottom: 1.2rem;
+}
+
+.screenshootsFooterBox .screenshootsFooterBoxInfo p span
+{
+    padding-left: 1.3rem;
+    color: red;
+    font-weight: 550;
+}
+
+.price-content
+{
+    position: relative;
+    top: 122rem;
+    background:white;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    place-items: center;
+}
+
+.price-content h1
+{
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+}
+
+.price-content h1 span
+{
+    border-bottom: .3rem solid red;
+}
+.price-content .priceListBox
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    justify-content: space-around;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.price-content .priceListBox .priceBox:first-child
+{
+    margin-left: 0;
+}
+
+.price-content .priceListBox .priceBox
+{
+    position: relative;
+    padding: 2rem;
+    margin-left: 2rem;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.price-content .priceListBox .priceBox h2
+{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    padding-bottom: 2rem;
+}
+
+.price-content .priceListBox .priceBox .pricePar1
+{
+    color: red;
+    font-size: 2.3rem;
+    letter-spacing: .1rem;
+    padding-bottom: 1.5rem;
+}
+
+.price-content .priceListBox .priceBox .pricePar1 .sp1
+{
+    color: red;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+}
+
+
+.price-content .priceListBox .priceBox .pricePar1 .sp2
+{
+    color: black;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+}
+
+.price-content .priceListBox .priceBox p
+{
+    letter-spacing:.05rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding-bottom: 1.5rem;
+}
+
+.price-content .priceListBox .priceBox .pricePar2
+{
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.price-content .priceListBox .priceBox .btn3
+{
+    padding: .9rem 2.5rem;
+    text-transform: uppercase;
+    color:indianred;
+    font-size: 1rem;
+    font-weight: 700;
+    border: .1rem solid indianred;
+    border-radius: .3rem;
+    margin-top: 2.5rem;
+    max-width: 20rem;
+    cursor: pointer;
+}
+
+.price-content .priceListBox .priceBox .btn3:hover
+{
+    padding: .9rem 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1rem;
+    background: indianred;
+    border-radius: .3rem;
+    margin-top: 2.5rem;
+    max-width: 20rem;
+    cursor: pointer;
+}
+
+.price-content .priceListBox .priceBox .btn4
+{
+    padding: .9rem 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1rem;
+    background: indianred;
+    border-radius: .3rem;
+    margin-top: 2.5rem;
+    max-width: 20rem;
+    cursor: pointer;
+}
+
+.testimonial
+{
+    position: relative;
+    top: 122rem;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background: white;
+    padding-bottom: 2rem;
+}
+
+.testimonial .testimonal-content h1
+{
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    padding-bottom: 2rem;
+}
+
+.testimonial .testimonal-content h1 span
+{
+    border-bottom: .3rem solid red;
+}
+
+
+
+.testimonial .testimonal-content .bussinesCard
+{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    max-width: 100%;
+    background: white;
+    padding: 4rem;
+}
+
+.testimonial .testimonal-content .bussinesCard .bussinesCardBox
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.testimonial .testimonal-content .bussinesCard .bussinesCardBox .bussinesCardInfo
+{
+    padding: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background:#ecf0f1;
+    text-align: center;
+    margin-left: 1.5rem;
+}
+.testimonial .testimonal-content .bussinesCard .bussinesCardBox .bussinesCardInfo .bet
+{
+    position: absolute;
+    left: 9rem; top:0;
+    background: red;
+    width: .3rem;
+    height: 7.6rem;
+}
+
+
+
+.testimonial .testimonal-content .bussinesCard .bussinesCardBox .bussinesCardInfo h3
+{
+    text-transform: capitalize;
+    padding-bottom: .5rem;
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
+
+.testimonial .testimonal-content .bussinesCard .bussinesCardBox .bussinesCardInfo p
+{
+    font-size: 1.4rem;
+    padding-bottom: .5rem;
+    text-transform: capitalize;
+}
+
+.testimonial .testimonal-content .bussinesCard .bussinesCardBox .bussinesCardInfo p span
+{
+    font-size: 1.2rem;
+}
+
+.testimonial .testimonal-content .clientComent
+{
+    max-width: 50%;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.testimonial .sliderButons
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    top: -3.5rem; left:45%;
+    max-width: 8rem;
+}
+
+.testimonial .sliderButons .sliderOne,
+.testimonial .sliderButons .sliderTwo,
+.testimonial .sliderButons .sliderThree
+{
+    width: .7rem;
+    height: .7rem;
+    border: .1rem solid red;
+    padding-top: .3rem;
+    padding-bottom:1rem;
+    padding-left:.3rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.testimonial .sliderButons .sliderOne .recetangle1
+{
+    width: .7rem;
+    height: .7rem;
+    border: .1rem solid red;
+    background: red;
+}
+
+.testimonial .sliderButons .sliderTwo .recetangle1,
+.testimonial .sliderButons .sliderThree .recetangle1
+{
+    width: .7rem;
+    height: .7rem;
+    border: .1rem solid red;
+}
+
+.testimonial .sliderButons .sliderOne:hover .recetangle1,
+.testimonial .sliderButons .sliderTwo:hover .recetangle1,
+.testimonial .sliderButons .sliderThree:hover .recetangle1
+{
+    background:red;
+}
+
+
+.awesomeTeam
+{
+    position: relative;
+    top:0rem;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    background-color:white;
+    padding: 10rem 10rem 5rem 10rem;
+}
+
+.awesomeTeam h1
+{
+    position: absolute;
+    top: 0;
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    padding-bottom: 2rem;
+
+}
+
+.awesomeTeam h1 span
+{
+    border-bottom: .3rem solid red;
+}
+
+.awesomeTeam .boxImg img
+{
+    padding: 1rem;
+}
+
+.awesomeTeam .boxImg .teamImfo
+{
+    position: absolute;
+    top: 36%; margin-left: 1.5rem;margin-top: 0.3rem;
+    background: rgba(255, 0, 0, 0.7);
+    text-align: center;
+    width: 12.7rem;height: 12.9rem;
+    transform: scale(1.2);visibility: hidden;
+}
+
+.awesomeTeam .boxImg:hover .teamImfo
+{
+    visibility: visible;
+    transform: scale(1);
+    transition: .3s;
+}
+
+.awesomeTeam .boxImg .teamImfo p
+{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: .05rem;
+    padding-top:.5rem;
+    color: white;
+}
+
+.awesomeTeam .boxImg .teamImfo p:nth-child(1)
+{
+    margin-top: 2rem;
+}
+
+.awesomeTeam .boxImg .teamImfo p:nth-child(2)
+{
+    margin-top: 1rem;
+}
+
+.awesomeTeam .boxImg .teamImfo p span
+{
+    font-size: 1.2rem;
+}
+
+.awesomeTeam .boxImg .teamImfo .socialMediaInfo
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0 1rem 0;
+}
+
+.awesomeTeam .boxImg .teamImfo .socialMediaInfo .rotate:first-child
+{
+    margin-left: 0;
+}
+
+.awesomeTeam .boxImg .teamImfo .socialMediaInfo .rotate
+{
+    border: .1rem solid white;
+    width: auto; height: auto;
+    margin-left: .1rem;
+    height:1.8rem;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.awesomeTeam .boxImg .teamImfo .socialMediaInfo .rotate ion-icon
+{
+    color: white;
+    font-size: 1rem;
+    padding-top: 0.3rem; padding-bottom: 0.3rem;
+    padding-left:0.3rem ; padding-right: 0.3rem;
+    transform: rotate(-45deg);
+}
+
+.awesomeTeam .boxImg .teamImfo .socialMediaInfo .rotate:hover
+{
+    background: white;
+    transform: rotate(0);
+}
+
+.awesomeTeam .boxImg .teamImfo .socialMediaInfo .rotate:hover ion-icon
+{
+    color: rgba(255, 0, 0, 0.7);
+    transform: rotate(0);
+}
+
+.faqcontent
+{
+    position: relative;
+    display: grid;
+    top: 120rem;
+    background: #ecf0f1;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 14rem;
+}
+
+
+.faqcontent h1
+{
+    position: absolute;
+    top: 0;
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    padding-bottom: 2rem;
+
+}
+
+.faqcontent h1 span
+{
+    border-bottom: .3rem solid red;
+}
+
+.faqcontent .faqContentList
+{
+    position: relative;
+    display: flex;
+    top: 10rem;
+    background: #ecf0f1;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+
+.faqcontent .faqContentList .faqContentListBox:first-child
+{
+    margin-left: 0;
+}
+
+.faqcontent .faqContentList .faqContentListBox
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background: #ecf0f1;
+    max-width: 40rem;
+    margin-left: 8rem;
+}   
+
+.faqcontent .faqContentList .faqContentListBox .faqContentListBoxIcon
+{
+    width: 2rem;
+    height: 2rem;
+    padding-top: .8rem;
+    padding-left: .5rem;
+    padding-bottom:2.5rem;
+    padding-right: 2.3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: red;
+}
+
+.faqcontent .faqContentList .faqContentListBox .faqContentListBoxIcon ion-icon
+{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.faqcontent .faqContentList .faqContentListBox .faqContentListBoxInfo p
+{
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    line-height: 1.8;
+}
+
+.faqcontent .faqContentList .faqContentListBox .faqContentListBoxInfo p span
+{
+    font-weight:600;
+}
+
+.blog-content
+{
+    position: relative;
+    top: 120rem;
+    background: white;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.blog-content h1
+{
+    position: absolute;
+    top: 0;
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    padding-bottom: 2rem;
+
+}
+
+.blog-content h1 span
+{
+    border-bottom: .3rem solid red;
+}
+
+.blog-content .blogcontentList
+{
+    position: relative;
+    display: flex; top:10rem;
+    justify-content:space-between;
+    justify-items: center;
+    align-items: center;
+    transform: scale(.8);
+}
+
+.blog-content .blogcontentList .blogContentBox{
+    padding-left: 2rem;
+}
+
+.blog-content .blogcontentList .blogContentBox .blogContentBoxImgInfo
+{
+    display: flex; position: absolute;
+    top: 16.4rem;
+    background: rgba(255, 0, 0, 0.7);
+    justify-items: center;
+    justify-items: center;
+    width: 28.2rem;
+}
+
+.blog-content .blogcontentList .blogContentBox .blogContentBoxImgInfo p
+{
+    font-size: 1.2rem; color: white;
+    text-transform: capitalize;
+    padding-left: 2.4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.blog-content .blogcontentList .blogContentBox .blogContentBoxImgInfo p span:hover
+{
+    color:#1C2833 ;
+}
+
+.blog-content .blogcontentList .blogContentBox .boxContentInfo
+{
+    line-height: 1.8;
+}
+
+.blog-content .blogcontentList .blogContentBox .boxContentInfo h2
+{
+    font-size: 2rem;
+    font-weight: 570;
+    letter-spacing: .1rem;
+    width: 28rem;
+}
+
+.blog-content .blogcontentList .blogContentBox .boxContentInfo p
+{
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 28rem;
+}
+
+.blog-content .blogcontentList .blogContentBox .boxContentInfo a
+{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2rem;
+}
+
+.blog-content .btn4
+{
+    padding: .9rem 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1rem;
+    background:indianred;
+    border-radius: .3rem;
+    margin-top: 10rem;
+    max-width: 20rem;
+    cursor: pointer;
+}
+
+.blog-content .btn4:hover{
+    background: #1C2833;
+    transition: .3s;
+}
+
+.contacts-content
+{
+    position: relative;
+    display: grid; background: rgba(255, 0, 0, 0.2);
+    top: 120rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 15rem;
+}
+
+.contacts-content .contactsBox
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.contacts-content h1
+{
+    position: absolute;
+    top: 0;
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    padding-bottom: 2rem;
+    color: white;
+
+}
+
+.contacts-content h1 span
+{
+    border-bottom: .3rem solid white;
+}
+
+
+.contacts-content .contactsBox
+{
+    position: relative;
+    top: 10rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.contacts-content .contactsBox .contactsBoxForm
+{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.contacts-content .contactsBox .contactsBoxForm .formOne 
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.contacts-content .contactsBox .contactsBoxForm .formOne input 
+{
+    border: .1rem solid white;
+    width: 20rem; height: 2rem;
+    background-color: rgba(255, 0, 0, 0.1);
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    padding: .5rem;
+    letter-spacing: .05rem;
+
+}
+
+.contacts-content .contactsBox .contactsBoxForm .formOne input::placeholder
+{
+    color: white;
+    padding: .5rem;
+    letter-spacing: .05rem;
+}
+
+
+.contacts-content .contactsBox .contactsBoxForm .btn7
+{
+    padding: .9rem 2.5rem;
+    text-transform: uppercase;
+    color:indianred;
+    font-size: 1rem;
+    background:white;
+    border-radius: .3rem;
+    margin-top: 2rem; margin-right: 27rem;
+    max-width: 20rem;
+    cursor: pointer;
+}
+
+.contacts-content .contactsBox .contactsBoxForm .btn7:hover
+{
+    background-color: #1C2833;
+    color: white;
+}
+
+.contacts-content .contactsBox .contactsBoxForm .formTwo textarea
+{
+    border: .1rem solid white;
+    width: 41rem; height: 10rem;
+    background-color:rgba(255, 0, 0, 0.1);
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    padding: .5rem;
+    letter-spacing: .05rem;
+}
+
+.contacts-content .contactsBox .contactsBoxInfo
+{
+    position: relative;
+    bottom: .9rem;
+    display: grid;
+    line-height: 2.3;
+    padding-left: 3rem;
+    max-width: 30rem;
+}
+
+.contacts-content .contactsBox .contactsBoxInfo h2
+{
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.contacts-content .contactsBox .contactsBoxInfo p
+{
+    font-size: 1.1rem;
+    color: white;
+}
+
+.contacts-content .contactsBox .contactsBoxInfo p ion-icon
+{
+    font-size: 1.2rem;
+    color: white;
+    padding-right: 1.5rem;
+}
+
+.contacts-content .contactsBox .contactsBoxInfo .contactsBoxInfoSocial
+{
+    display: flex;
+}
+
+.contacts-content .contactsBox .contactsBoxInfo .contactsBoxInfoSocial .bck:first-child
+{
+    margin-left: 0;
+}
+
+.contacts-content .contactsBox .contactsBoxInfo .contactsBoxInfoSocial .bck
+{
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: white;
+    margin-left: 1rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contacts-content .contactsBox .contactsBoxInfo .contactsBoxInfoSocial ion-icon 
+{
+    font-size: 1.7rem;
+    padding: .5rem;
+    color: red;
+}
+
+.contacts-content .contactsBox .contactsBoxInfo .contactsBoxInfoSocial .bck:hover
+{
+    background: #1C2833;
+}
+
+.contacts-content .contactsBox .contactsBoxInfo .contactsBoxInfoSocial .bck:hover ion-icon 
+{
+    transform: rotate(360deg);
+    color: white;
+    transition: .3s;
+}
+
+.homeBTN
+{
+    position: fixed;
+    top: 90%;right: 1%;
+    width: 2rem;
+    height: 2.1rem;
+    background: #1C2833;
+    visibility: hidden;
+}
+
+.homeBTN:hover
+{
+    background: rgba(255, 0, 0, 0.5);
+    transition: .5s;
+}
+
+.homeBTN ion-icon
+{
+    font-size: 1.7rem;
+    color: white;
+    padding: .2rem;
+}
